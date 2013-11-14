@@ -1,5 +1,5 @@
 SharpIRLib, an Arduino Library for Sharp IR Range Finders
----------------------------------------------------------
+=========================================================
 
 This is a library for interfacing Sharp IR range finders.
 Currently there are three models supported,
