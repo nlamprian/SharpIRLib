@@ -13,22 +13,19 @@ are present for reference in the `curve_fitting` folder.
 
 Curve Fitting
 -------------
-Apparently, not all units have the same response characteristic.
-So, I have also implemented a process to extract such a characteristic for your own sensor.
-* There is a Python script `data_acquisition.py`, accompanied by an Arduino sketch `CurveFitting`, 
-so as those two together, and with a little bit of your help, they are going to take some measurements, 
-do a bit of processing, and put the data in a file `datapoints.csv`.
-* Next, there is a Python script `curve_fitting.py` and a MATLAB script `curve_fitting.m`,
-and you can use either one (it's up to you which one), to fit a model to the data, evaluate the results,
-and compare the estimated model with the one from the datasheet.
+Apparently, not all units have the same response characteristic. So, I have also implemented a process to extract such a characteristic for your own sensor.
+
+![Curve Fitting](http://i859.photobucket.com/albums/ab154/lampnick67/Untitled-1_zps00e26b29.png)
+
+In the `curve_fitting` folder:
+* There is a Python script `data_acquisition.py`, accompanied by an Arduino sketch `CurveFitting`, so as those two together, and with a little bit of your help, they are going to take some measurements, do a bit of processing, and put the data in a file `datapoints.csv`.
+* Next, there is a Python script `curve_fitting.py` and a MATLAB script `curve_fitting.m`, and you can use either one (it's up to you which one), to fit a model to the data, evaluate the results, and compare the estimated model with the one from the datasheet.
 You can find more details on the headers of the corresponding files.
 
-It's not neccessary to execute this process, it might be that your sensor
-is already working pretty well. But if you think you need that extra accuracy
-for your project, now you can have it out of the box.
+It's not neccessary to execute this process, it might be that your sensor is already working pretty well. But if you think you need that extra accuracy for your project, now you can have it out of the box.
 
 
-Basic functionality
+Basic Functionality
 -------------------
 * Get values from the sensor in `raw` form, in `volts`, and in units of length (`cm`, `in`).
 * Set/Reset the voltage reference for the sensor's output measurement.
