@@ -48,15 +48,15 @@ void setup()
     // If you have fitted a curve for your sensor, you can set the model here
     // The available model families are:
     //   * Sum of exponentials: a * exp(b * x) + c * exp(d * x)
-    //   * 5th order polynomial: a * x^5 + b * x^4 + c * x^3 + d * x^2 + e * x + f
+    //   * 5th degree polynomial: a * x^5 + b * x^4 + c * x^3 + d * x^2 + e * x + f
     // So, you can set the model to an exponential, a sum of expontials,
-    // or a polynomial up to 5th order
+    // or a polynomial up to 5th degree
     // First argument to setModel is the model type { EXPS, POLY5 }
     // e.g. double a = .., b = .., c = .., d = .., e = .., f = ..;
     //      ir.setModel(EXPS, a, b, c, d);  // sum of exponentials
     // or   ir.setModel(EXPS, a, b);  // exponential
-    // or   ir.setModel(POLY5, a, b, c, d, e, f);  // 5th order polynomial
-    // or   ir.setModel(POLY5, 0, 0, c, d, e, f);  // 3rd order polynomial
+    // or   ir.setModel(POLY5, a, b, c, d, e, f);  // 5th degree polynomial
+    // or   ir.setModel(POLY5, 0, 0, c, d, e, f);  // 3rd degree polynomial
 }
 
 void loop()
