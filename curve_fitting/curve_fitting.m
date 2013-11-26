@@ -5,7 +5,7 @@ function curve_fitting(part_code, filename)
 % * filename  - the file containing the data
 % Example:
 % % Navigate first to the folder containing the data and the code
-% curve_fitting('GP2D120XJ00F','datasheet_points_GP2D120XJ00F.csv')
+% curve_fitting('GP2D120XJ00F','datapoints.csv')
 
 % Specifies the models of the sensors that are derived from the datasheets
 part_ds_model = containers.Map;

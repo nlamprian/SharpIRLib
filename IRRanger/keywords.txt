@@ -12,6 +12,7 @@ IRRanger	KEYWORD1
 # Methods and Functions (KEYWORD2)   #
 ######################################
 
+setModel	KEYWORD2
 setARef	KEYWORD2
 resetARef	KEYWORD2
 setPRef	KEYWORD2
