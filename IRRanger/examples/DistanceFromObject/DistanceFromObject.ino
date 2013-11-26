@@ -52,7 +52,7 @@ void setup()
     // So, you can set the model to an exponential, a sum of expontials,
     // or a polynomial up to 5th order
     // First argument to setModel is the model type { EXPS, POLY5 }
-    // e.g. a = ..; b = ..; c = ..; d = ..; e = ..; f = ..;
+    // e.g. double a = .., b = .., c = .., d = .., e = .., f = ..;
     //      ir.setModel(EXPS, a, b, c, d);  // sum of exponentials
     // or   ir.setModel(EXPS, a, b);  // exponential
     // or   ir.setModel(POLY5, a, b, c, d, e, f);  // 5th order polynomial
