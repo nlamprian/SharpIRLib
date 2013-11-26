@@ -1,7 +1,7 @@
-SharpIRLib, an Arduino Library for Sharp IR Range Finders
-=========================================================
+SharpIRLib
+==========
 
-This is a library for interfacing Sharp IR range finders.
+This is an Arduino library for interfacing Sharp IR range finders.
 Currently there are three models supported,
 [GP2D120XJ00F](https://www.sparkfun.com/products/8959), 
 [GP2Y0A21YK](https://www.sparkfun.com/products/242), 
@@ -28,11 +28,12 @@ It's not neccessary to execute this process, it might be that your sensor is alr
 Basic Functionality
 -------------------
 * Get values from the sensor in `raw` form, in `volts`, and in units of length (`cm`, `in`).
+* Set a model of your choice for the sensor (Sum of exponentials, 5th order polynomial.
 * Set/Reset the voltage reference for the sensor's output measurement.
-* Take multiple measurements that are averaged, in order to cancel out some of the sensor's output fluctuations.
+* Take multiple measurements that are averaged, in order to cancel out some of the sensor's output fluctuation.
 * Set a point of reference for the sensor's measurements. You can measure the distance of an object from a point (on the same axis) other than the sensor's position.
 * Operate the sensor in discrete mode by providing a threshold for the distances of objects.
 
 Examples
 --------
-There are two additional example sketches, `DistanceFromObject` and `StayAway`, that expose some of the interface and functionality of the library.
+There is one sketch for the curve fitting process, `CurveFitting`, and two additional example sketches, `DistanceFromObject` and `StayAway`, that expose some of the interface and functionality of the library.
