@@ -27,8 +27,8 @@ It's not neccessary to execute this process, it might be that your sensor is alr
 
 Basic Functionality
 -------------------
+* Set a model of your choice for the sensor (Sum of exponentials, 5th order polynomial).
 * Get values from the sensor in `raw` form, in `volts`, and in units of length (`cm`, `in`).
-* Set a model of your choice for the sensor (Sum of exponentials, 5th order polynomial.
 * Set/Reset the voltage reference for the sensor's output measurement.
 * Take multiple measurements that are averaged, in order to cancel out some of the sensor's output fluctuation.
 * Set a point of reference for the sensor's measurements. You can measure the distance of an object from a point (on the same axis) other than the sensor's position.
