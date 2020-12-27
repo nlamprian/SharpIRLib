@@ -1,6 +1,6 @@
 /**
  * Name: IRRanger
- * Author: Nick Lamprianidis (lampnick67@yahoo.com)
+ * Author: Nick Lamprianidis <nlamprian@gmail.com>
  * Version: 2.0
  * Description: An Arduino library for interfacing the Sharp IR range finders
  * License: Copyright (c) 2013 Nick Lamprianidis 

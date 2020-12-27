@@ -1,5 +1,5 @@
 """
-Author: Nick Lamprianidis (lampnick67@yahoo.com)
+Author: Nick Lamprianidis <nlamprian@gmail.com>
 Version: 1.0
 License: Copyright (c) 2013 Nick Lamprianidis 
          This library is licensed under the MIT license

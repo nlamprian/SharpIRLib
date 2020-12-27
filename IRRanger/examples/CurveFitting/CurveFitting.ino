@@ -1,7 +1,7 @@
 /**
  * This example is about the Sharp IR range finders
  * This example is supposed to be used in conjuction with the
- * data_acquisition.py script found here https://github.com/pAIgn10/SharpIRLib
+ * data_acquisition.py script found here https://github.com/nlamprian/SharpIRLib
  * As the first step, you're going to take some measurements with your sensor
  * Next, you will be utilize these data for fitting a curve for the
  * particular sensor in your possession
@@ -11,7 +11,7 @@
  * on the data_acquisition and curve_fitting scripts to do a curve fitting on your sensor.
  *
  * Load this code on your arduino, and then go to
- * https://github.com/pAIgn10/SharpIRLib for more details
+ * https://github.com/nlamprian/SharpIRLib for more details
  */
 
 #include "IRRanger.h"  // Include the IRRanger library
